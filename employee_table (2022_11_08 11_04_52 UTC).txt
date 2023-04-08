@@ -1,0 +1,7 @@
+create table employee(
+	id varchar(4) not null unique,
+	dept_no varchar(2),
+	name varchar(12) not null,
+	age int2, 
+	primary key( id )
+);
